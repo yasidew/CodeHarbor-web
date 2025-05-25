@@ -1,62 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>CodeHarbor</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>CodeHarbor</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+    <!-- Favicons -->
+    <link href="assets/img/ch1.jpg" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/ch1.jpg" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: Bootslander
   * Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
   * Updated: Aug 07 2024 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body class="index-page">
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
+      >
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 class="sitename">CodeHarbor</h1>
+        </a>
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">CodeHarbor</h1>
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#domain">Domain</a></li>
-          <li><a href="#features">Milestones</a></li>
-          <li><a href="#documents">Documents</a></li>
-          <li><a href="#team">Team</a></li>
-          <!-- <li><a href="#pricing">Pricing</a></li> -->
-          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#domain">Domain</a></li>
+            <li><a href="#features">Milestones</a></li>
+            <li><a href="#documents">Documents</a></li>
+            <li><a href="#team">Team</a></li>
+            <!-- <li><a href="#pricing">Pricing</a></li> -->
+            <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -73,285 +84,476 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li> -->
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+      </div>
+    </header>
 
-    </div>
-  </header>
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section dark-background">
+        <img src="assets/img/background.jpg" alt="" class="hero-bg" />
 
-  <main class="main">
+        <div class="container">
+          <div class="row gy-4 justify-content-between">
+            <div
+              class="col-lg-4 order-lg-last hero-img"
+              data-aos="zoom-out"
+              data-aos-delay="100"
+            >
+              <img
+                src="assets/img/Home2.png"
+                class="img-fluid animated rounded-hero-img"
+                alt=""
+              />
+            </div>
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-      <img src="assets/img/background.jpg" alt="" class="hero-bg">
-
-      <div class="container">
-        <div class="row gy-4 justify-content-between">
-          <div class="col-lg-4 order-lg-last hero-img" data-aos="zoom-out" data-aos-delay="100" >
-            <img src="assets/img/Home2.png" class="img-fluid animated rounded-hero-img" alt="">
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center"
+              data-aos="fade-in"
+            >
+              <h1>Analyze and Improve Code With <span>CodeHarbor</span></h1>
+              <p>
+                An AI-powered code analysis platform for smarter reviews,
+                refactoring, and accessibility enhancements.
+              </p>
+              <div class="d-flex">
+                <a href="#about" class="btn-get-started">Explore Features</a>
+                <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>View Demo</span></a> -->
+                <a
+                  href="assets/video/CodeHarbor Demo 2.mp4"
+                  class="glightbox btn-watch-video d-flex align-items-center"
+                  data-type="video"
+                >
+                  <i class="bi bi-play-circle"></i><span>View Demo</span>
+                </a>
+              </div>
+            </div>
           </div>
+        </div>
 
-          <div class="col-lg-6  d-flex flex-column justify-content-center" data-aos="fade-in">
-            <h1>Analyze and Improve Code With <span>CodeHarbor</span></h1>
-            <p>An AI-powered code analysis platform for smarter reviews, refactoring, and accessibility enhancements.</p>
-            <div class="d-flex">
-              <a href="#about" class="btn-get-started">Explore Features</a>
-              <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>View Demo</span></a>
+        <svg
+          class="hero-waves"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28 "
+          preserveAspectRatio="none"
+        >
+          <defs>
+            <path
+              id="wave-path"
+              d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+            ></path>
+          </defs>
+          <g class="wave1">
+            <use xlink:href="#wave-path" x="50" y="3"></use>
+          </g>
+          <g class="wave2">
+            <use xlink:href="#wave-path" x="50" y="0"></use>
+          </g>
+          <g class="wave3">
+            <use xlink:href="#wave-path" x="50" y="9"></use>
+          </g>
+        </svg>
+      </section>
+      <!-- /Hero Section -->
+
+      <!-- About Section -->
+      <section id="about" class="about section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row align-items-xl-center gy-5">
+            <div class="col-xl-5 content">
+              <h3>Welcome</h3>
+              <h2>Inside <strong>CodeHarbor</strong></h2>
+              <p>
+                CodeHarbor is a collaborative research project developed by a
+                group of final-year Software Engineering students at SLIIT. It
+                is designed to simplify code analysis, improve software quality,
+                and promote accessible, developer-friendly tooling using AI
+                technologies.
+              </p>
+              <a href="#domain" class="read-more"
+                ><span>Read More</span><i class="bi bi-arrow-right"></i
+              ></a>
+            </div>
+
+            <div class="col-xl-7">
+              <div class="row gy-4 icon-boxes">
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                  <div class="icon-box">
+                    <i class="bi bi-shield-check"></i>
+                    <h3>Automated Code Review & Analysis</h3>
+                    <p>
+                      Scans code for smells, vulnerabilities, and standard
+                      violations offering categorized suggestions for improved
+                      compliance and quality
+                    </p>
+                  </div>
+                </div>
+                <!-- End Icon Box -->
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                  <div class="icon-box">
+                    <i class="bi bi-braces"></i>
+                    <h3>Complexity Reduction through Automated Refactoring</h3>
+                    <p>
+                      Uses transformer-based analysis to suggest intelligent,
+                      structure-preserving code refactorings that reduce code
+                      complexity.
+                    </p>
+                  </div>
+                </div>
+                <!-- End Icon Box -->
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                  <div class="icon-box">
+                    <i class="bi bi-bar-chart-line"></i>
+                    <h3>Calculate Code Complexity using Metric</h3>
+                    <p>
+                      Calculates and visualizes code complexity using extended
+                      WCC metrics, helping developers identify hotspots and
+                      improve maintainability.
+                    </p>
+                  </div>
+                </div>
+                <!-- End Icon Box -->
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                  <div class="icon-box">
+                    <i class="bi bi-controller"></i>
+                    <h3>Gamified Accessibility Testing</h3>
+                    <p>
+                      Automates accessibility testing and engages developers
+                      through gamified tasks, making inclusive development more
+                      engaging and trackable.
+                    </p>
+                  </div>
+                </div>
+                <!-- End Icon Box -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /About Section -->
+
+      <!-- Domain Section -->
+      <section id="domain" class="details section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Domain</h2>
+          <div>
+            <span>Explore Our</span>
+            <span class="description-title">Domain</span>
+          </div>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-4 align-items-center features-item">
+            <div
+              class="col-md-5 d-flex align-items-center"
+              data-aos="zoom-out"
+              data-aos-delay="100"
+            >
+              <img src="assets/img/details-1.png" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
+              <h3>Research Context & Problem Statement.</h3>
+              <p class="fst-italic">
+                Modern codebases often grow complex and unmanageable, making it
+                difficult to ensure quality, security, and maintainability.
+              </p>
+              <p><strong>Key Findings:</strong></p>
+              <ul>
+                <li>
+                  <i class="bi bi-check"></i
+                  ><span
+                    >Performed an in-depth literature review analyzing the
+                    strengths and limitations of existing static analysis and
+                    code review tools.</span
+                  >
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span
+                    >Identified a gap in current tools: lack of contextual,
+                    AI-driven analysis for improving code quality.</span
+                  >
+                </li>
+
+                <li><i class="bi bi-check"></i>
+                  <span>Research Problem:</strong> How can AI enhance automated code review and complexity reduction in modern software projects?</span>
+                </li>
+                <br>
+                <h4>Literature Survey & Research Gap</h4>
+                <p class="fst-italic">
+                  Our literature survey highlighted limitations in traditional
+                  static analysis tools, particularly the lack of
+                  context-awareness and automated complexity reduction. This gap
+                  forms the basis for CodeHarbor’s innovation.
+                </p>
+              </ul>
+            </div>
+          </div>
+          <!-- Features Item -->
+
+          <div class="row gy-4 align-items-center features-item">
+            <div
+              class="col-md-5 order-1 order-md-2 d-flex align-items-center"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <img src="assets/img/details-2.png" class="img-fluid" alt="" />
+            </div>
+            <div
+              class="col-md-7 order-2 order-md-1"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <h3>Research Objectives</h3>
+              <p class="fst-italic">
+                CodeHarbor aims to enhance code review quality through
+                intelligent automation and visualized complexity metrics.
+              </p>
+              <ul>
+                <li>
+                  <i class="bi bi-check"></i
+                  ><span
+                    >Automate code compliance checking with AI-generated
+                    recommendations.</span
+                  >
+                </li>
+                <li>
+                  <i class="bi bi-check"></i
+                  ><span
+                    >Suggest refactorings to reduce structural complexity.</span
+                  >
+                </li>
+                <li>
+                  <i class="bi bi-check"></i
+                  ><span>Visualize complexity using extended WCC metrics.</span>
+                </li>
+                <li>
+                  <i class="bi bi-check"></i
+                  ><span>Improve accessibility testing with gamification.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Features Item -->
+
+          <div class="row gy-4 align-items-center features-item">
+            <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
+              <img src="assets/img/details-3.png" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-7" data-aos="fade-up">
+              <h3>Research Methodology</h3>
+              <p>
+                The system is built using a hybrid approach that integrates
+                machine learning models, static code analysis, and usability
+                features.
+              </p>
+              <ul>
+                <li>
+                  <i class="bi bi-check"></i
+                  ><span
+                    >Code analysis using AST parsing and LLMs (CodeT5).</span
+                  >
+                </li>
+                <li>
+                  <i class="bi bi-check"></i
+                  ><span
+                    >Training models using annotated code and guideline
+                    data.</span
+                  >
+                </li>
+                <li><i class="bi bi-check"></i>
+                  Evaluation includes manual developer review, WCC score comparison, and feedback loop validation.
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+          <!-- Features Item -->
+
+          <div class="row gy-4 align-items-center features-item">
+            <div
+              class="col-md-5 order-1 order-md-2 d-flex align-items-center"
+              data-aos="zoom-out"
+            >
+              <img src="assets/img/details-4.png" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
+              <h3>Technologies Used</h3>
+              <p class="fst-italic">
+                CodeHarbor integrates modern web technologies with AI and data
+                science stacks to ensure a robust and scalable system.
+              </p>
+              <ul>
+                <li>
+                  <i class="bi bi-check"></i
+                  ><span>Django (Backend Framework)</span>
+                </li>
+                <li>
+                  <i class="bi bi-check"></i><span>PostgreSQL (Database)</span>
+                </li>
+                <li>
+                  <i class="bi bi-check"></i
+                  ><span>HTML, CSS, JS (Frontend)</span>
+                </li>
+                <li>
+                  <i class="bi bi-check"></i
+                  ><span>CodeT5 (Transformer-based Code Analysis)</span>
+                </li>
+                <li>
+                  <i class="bi bi-check"></i><span>Statistical Analysis</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Features Item -->
+        </div>
+      </section>
+      <!-- /Details Section -->
+
+      <!-- Features Section -->
+      <section id="features" class="features section">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>MILESTONES</h2>
+          <div>
+            <span>Our</span> <span class="description-title">Journey</span>
+          </div>
+          <p>
+            Scroll down to explore all major project assessments with details,
+            dates, and mark allocations.
+          </p>
+        </div>
+
+        <div class="container timeline">
+          <!-- Milestone 1 -->
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="timeline-icon">
+              <i class="bi bi-file-earmark-text-fill"></i>
+            </div>
+            <div class="timeline-content">
+              <h4>Project Proposal</h4>
+              <p>
+                <strong>Date:</strong> 23rd August 2024 |
+                <strong>Marks:</strong> 10%
+              </p>
+              <p>
+                Initial proposal outlining the problem, scope, objectives, and
+                methodology of CodeHarbor.
+              </p>
             </div>
           </div>
 
-        </div>
-      </div>
-
-      <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
-        <defs>
-          <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
-        </defs>
-        <g class="wave1">
-          <use xlink:href="#wave-path" x="50" y="3"></use>
-        </g>
-        <g class="wave2">
-          <use xlink:href="#wave-path" x="50" y="0"></use>
-        </g>
-        <g class="wave3">
-          <use xlink:href="#wave-path" x="50" y="9"></use>
-        </g>
-      </svg>
-
-    </section><!-- /Hero Section -->
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row align-items-xl-center gy-5">
-
-          <div class="col-xl-5 content">
-            <h3>Welcome</h3>
-            <h2>Inside <strong>CodeHarbor</strong></h2>
-            <p>CodeHarbor is a collaborative research project developed by a group of final-year Software Engineering students at SLIIT. It is designed to simplify code analysis, improve software quality, and promote accessible, developer-friendly tooling using AI technologies.</p>
-            <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-          </div>
-
-          <div class="col-xl-7">
-            <div class="row gy-4 icon-boxes">
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="icon-box">
-                  <i class="bi bi-shield-check"></i>
-                  <h3>Automated Code Review & Analysis</h3>
-                  <p>Scans code for smells, vulnerabilities, and standard violations offering categorized suggestions for improved compliance and quality</p>
-                </div>
-              </div> <!-- End Icon Box -->
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                <div class="icon-box">
-                  <i class="bi bi-braces"></i>
-                  <h3>Complexity Reduction through Automated Refactoring</h3>
-                  <p>Uses transformer-based analysis to suggest intelligent, structure-preserving code refactorings that reduce code complexity.</p>
-                </div>
-              </div> <!-- End Icon Box -->
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
-                <div class="icon-box">
-                  <i class="bi bi-bar-chart-line"></i>
-                  <h3>Calculate Code Complexity using Metric</h3>
-                  <p>Calculates and visualizes code complexity using extended WCC metrics, helping developers identify hotspots and improve maintainability.</p>
-                </div>
-              </div> <!-- End Icon Box -->
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-                <div class="icon-box">
-                  <i class="bi bi-controller"></i>
-                  <h3>Gamified Accessibility Testing</h3>
-                  <p>Automates accessibility testing and engages developers through gamified tasks, making inclusive development more engaging and trackable.</p>
-                </div>
-              </div> <!-- End Icon Box -->
-
+          <!-- Milestone 2 -->
+          <div
+            class="timeline-item reverse"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="timeline-icon">
+              <i class="bi bi-bar-chart-line-fill"></i>
+            </div>
+            <div class="timeline-content">
+              <h4>Progress Presentation 1</h4>
+              <p>
+                <strong>Date:</strong> 05th December 2024 |
+                <strong>Marks:</strong> 15%
+              </p>
+              <p>
+                Covers architecture decisions, initial model training, and UI
+                wireframes.
+              </p>
             </div>
           </div>
 
-        </div>
-      </div>
-
-    </section><!-- /About Section -->
-
-    <!-- Domain Section -->
-    <section id="domain" class="details section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Domain</h2>
-        <div><span>Explore Our</span> <span class="description-title">Domain</span></div>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4 align-items-center features-item">
-          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <img src="assets/img/details-1.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-            <h3>Research Context & Problem Statement.</h3>
-            <p class="fst-italic">
-              Modern codebases often grow complex and unmanageable, making it difficult to ensure quality, security, and maintainability.
-            </p>
-            <ul>
-              <li><i class="bi bi-check"></i><span>Performed an in-depth literature review analyzing the strengths and limitations of existing static analysis and code review tools.</span></li>
-              <li><i class="bi bi-check"></i><span>Identified lack of contextual, AI-driven analysis in current tools.</span></li>
-              <li><i class="bi bi-check"></i><span>Research problem: How can AI enhance automated code review and complexity reduction?</span></li>
-            </ul>
-          </div>
-        </div><!-- Features Item -->
-
-        <div class="row gy-4 align-items-center features-item">
-          <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="assets/img/details-2.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
-            <h3>Research Objectives</h3>
-            <p class="fst-italic">
-              CodeHarbor aims to enhance code review quality through intelligent automation and visualized complexity metrics.
-            </p>
-            <ul>
-              <li><i class="bi bi-check"></i><span>Automate code compliance checking with AI-generated recommendations.</span></li>
-              <li><i class="bi bi-check"></i><span>Suggest refactorings to reduce structural complexity.</span></li>
-              <li><i class="bi bi-check"></i><span>Visualize complexity using extended WCC metrics.</span></li>
-              <li><i class="bi bi-check"></i><span>Improve accessibility testing with gamification.</span></li>
-            </ul>
-          </div>
-        </div><!-- Features Item -->
-
-        <div class="row gy-4 align-items-center features-item">
-          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
-            <img src="assets/img/details-3.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7" data-aos="fade-up">
-            <h3>Research Methodology</h3>
-            <p>The system is built using a hybrid approach that integrates machine learning models, static code analysis, and usability features.</p>
-            <ul>
-              <li><i class="bi bi-check"></i><span>Code analysis using AST parsing and LLMs (CodeT5).</span></li>
-              <li><i class="bi bi-check"></i><span>Training models using annotated code and guideline data.</span></li>
-              <li><i class="bi bi-check"></i><span>Evaluation through metric-based and feedback-based testing.</span></li>
-            </ul>
-          </div>
-        </div><!-- Features Item -->
-
-        <div class="row gy-4 align-items-center features-item">
-          <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out">
-            <img src="assets/img/details-4.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
-            <h3>Technologies Used</h3>
-            <p class="fst-italic">
-              CodeHarbor integrates modern web technologies with AI and data science stacks to ensure a robust and scalable system.
-            </p>
-            <ul>
-              <li><i class="bi bi-check"></i><span>Django (Backend Framework)</span></li>
-              <li><i class="bi bi-check"></i><span>PostgreSQL (Database)</span></li>
-              <li><i class="bi bi-check"></i><span>HTML, CSS, JS (Frontend)</span></li>
-              <li><i class="bi bi-check"></i><span>CodeT5 (Transformer-based Code Analysis)</span></li>
-              <li><i class="bi bi-check"></i><span>Statistical Analysis</span></li>
-            </ul>
-          </div>
-        </div><!-- Features Item -->
-
-      </div>
-
-    </section><!-- /Details Section -->
-
-    <!-- Features Section -->
-    <section id="features" class="features section">
-      <div class="container section-title" data-aos="fade-up">
-        <h2>MILESTONES</h2>
-        <div><span>Our</span> <span class="description-title">Journey</span></div>
-        <p>Scroll down to explore all major project assessments with details, dates, and mark allocations.</p>
-      </div>
-    
-      <div class="container timeline">
-    
-        <!-- Milestone 1 -->
-        <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
-          <div class="timeline-icon">
-            <i class="bi bi-file-earmark-text-fill"></i>
-          </div>
-          <div class="timeline-content">
-            <h4>Project Proposal</h4>
-            <p><strong>Date:</strong> 23rd August 2024 | <strong>Marks:</strong> 10%</p>
-            <p>Initial proposal outlining the problem, scope, objectives, and methodology of CodeHarbor.</p>
-          </div>
-        </div>
-    
-        <!-- Milestone 2 -->
-        <div class="timeline-item reverse" data-aos="fade-up" data-aos-delay="200">
-          <div class="timeline-icon">
-            <i class="bi bi-bar-chart-line-fill"></i>
-          </div>
-          <div class="timeline-content">
-            <h4>Progress Presentation 1</h4>
-            <p><strong>Date:</strong> 05th December 2024 | <strong>Marks:</strong> 15%</p>
-            <p>Covers architecture decisions, initial model training, and UI wireframes.</p>
-          </div>
-        </div>
-    
-        <!-- Milestone 3 -->
-        <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
-          <div class="timeline-icon">
-            <i class="bi bi-graph-up"></i>
-          </div>
-          <div class="timeline-content">
-            <h4>Progress Presentation 2</h4>
-            <p><strong>Date:</strong> 20th March 2025 | <strong>Marks:</strong> 20%</p>
-            <p>Demonstrates completed modules with partial testing, metrics, and integrations.</p>
-          </div>
-        </div>
-    
-        <!-- Milestone 4 -->
-        <div class="timeline-item reverse" data-aos="fade-up" data-aos-delay="400">
-          <div class="timeline-icon">
-            <i class="bi bi-award-fill"></i>
-          </div>
-          <div class="timeline-content">
-            <h4>Final Assessment</h4>
-            <p><strong>Date:</strong> 27th May 2025 | <strong>Marks:</strong> 30%</p>
-            <p>Includes final system demo, full documentation, complexity evaluations, and guideline compliance.</p>
-          </div>
-        </div>
-    
-        <!-- Milestone 5 -->
-        <div class="timeline-item" data-aos="fade-up" data-aos-delay="500">
-          <div class="timeline-icon">
-            <i class="bi bi-mic-fill"></i>
-          </div>
-          <div class="timeline-content">
-            <h4>Viva</h4>
-            <p><strong>Date:</strong> June 2025 | <strong>Marks:</strong> 15%</p>
-            <p>Oral evaluation focusing on technical understanding, implementation, and research quality.</p>
-          </div>
-        </div>
-    
-      </div>
-    </section>
-    <!-- /Features Section -->
-
-    <!-- Stats Section -->
-    <section id="stats" class="stats section light-background">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-check2-circle"></i>
-            <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Successful Code Analyses</p>
+          <!-- Milestone 3 -->
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+            <div class="timeline-icon">
+              <i class="bi bi-graph-up"></i>
             </div>
-          </div><!-- End Stats Item -->
-    
-          <!-- <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <div class="timeline-content">
+              <h4>Progress Presentation 2</h4>
+              <p>
+                <strong>Date:</strong> 20th March 2025 |
+                <strong>Marks:</strong> 20%
+              </p>
+              <p>
+                Demonstrates completed modules with partial testing, metrics,
+                and integrations.
+              </p>
+            </div>
+          </div>
+
+          <!-- Milestone 4 -->
+          <div
+            class="timeline-item reverse"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <div class="timeline-icon">
+              <i class="bi bi-award-fill"></i>
+            </div>
+            <div class="timeline-content">
+              <h4>Final Assessment</h4>
+              <p>
+                <strong>Date:</strong> 27th May 2025 |
+                <strong>Marks:</strong> 30%
+              </p>
+              <p>
+                Includes final system demo, full documentation, complexity
+                evaluations, and guideline compliance.
+              </p>
+            </div>
+          </div>
+
+          <!-- Milestone 5 -->
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="500">
+            <div class="timeline-icon">
+              <i class="bi bi-mic-fill"></i>
+            </div>
+            <div class="timeline-content">
+              <h4>Viva</h4>
+              <p>
+                <strong>Date:</strong> June 2025 | <strong>Marks:</strong> 15%
+              </p>
+              <p>
+                Oral evaluation focusing on technical understanding,
+                implementation, and research quality.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Features Section -->
+
+      <!-- Stats Section -->
+      <section id="stats" class="stats section light-background">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div
+              class="col-lg-3 col-md-6 d-flex flex-column align-items-center"
+            >
+              <i class="bi bi-check2-circle"></i>
+              <div class="stats-item">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="150"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Successful Code Analyses</p>
+              </div>
+            </div>
+            <!-- End Stats Item -->
+
+            <!-- <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
             <i class="bi bi-journal-code"></i>
             <div class="stats-item">
               <span data-purecounter-start="0" data-purecounter-end="75" data-purecounter-duration="1" class="purecounter"></span>
@@ -359,467 +561,682 @@
             </div>
           </div> -->
 
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-lightbulb"></i>
-            <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="1000" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Suggestions Generated</p>
+            <div
+              class="col-lg-3 col-md-6 d-flex flex-column align-items-center"
+            >
+              <i class="bi bi-lightbulb"></i>
+              <div class="stats-item">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="1000"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Suggestions Generated</p>
+              </div>
             </div>
-          </div><!-- End Stats Item -->
-    
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-graph-up-arrow"></i>
-            <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="96" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Avg. Quality Improvement (%)</p>
+            <!-- End Stats Item -->
+
+            <div
+              class="col-lg-3 col-md-6 d-flex flex-column align-items-center"
+            >
+              <i class="bi bi-graph-up-arrow"></i>
+              <div class="stats-item">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="96"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Avg. Quality Improvement (%)</p>
+              </div>
             </div>
-          </div><!-- End Stats Item -->
-    
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-person-video2"></i>
-            <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Contributors & Testers</p>
+            <!-- End Stats Item -->
+
+            <div
+              class="col-lg-3 col-md-6 d-flex flex-column align-items-center"
+            >
+              <i class="bi bi-person-video2"></i>
+              <div class="stats-item">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="25"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Contributors & Testers</p>
+              </div>
             </div>
-          </div><!-- End Stats Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Stats Section -->
-
-    
-
-    <!-- Gallery Section -->
-    <section id="documents" class="Document section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Documents</h2>
-        <div><span>Check Our</span> <span class="description-title">Submissions</span></div>
-        <p>Browse and access key documents of our research project. Click to view or download.</p>
-      </div>
-    
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row g-4">
-          <!-- Document Cards -->
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <a href="docs/project-charter.pdf" target="_blank" class="doc-card">
-              <div class="doc-icon"><i class="bi bi-file-earmark-text"></i></div>
-              <div class="doc-title">Project Charter</div>
-            </a>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <a href="docs/proposal.pdf" target="_blank" class="doc-card">
-              <div class="doc-icon"><i class="bi bi-file-earmark-richtext"></i></div>
-              <div class="doc-title">Proposal Document</div>
-            </a>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <a href="docs/checklist.pdf" target="_blank" class="doc-card">
-              <div class="doc-icon"><i class="bi bi-check2-square"></i></div>
-              <div class="doc-title">Checklist</div>
-            </a>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <a href="docs/final-pack.zip" target="_blank" class="doc-card">
-              <div class="doc-icon"><i class="bi bi-archive-fill"></i></div>
-              <div class="doc-title">Final Pack</div>
-            </a>
+            <!-- End Stats Item -->
           </div>
         </div>
-      </div>
-    
-      <!-- Divider for transition -->
-      <div class="container mt-5 mb-4" data-aos="fade-up">
-        <!-- <hr class="mb-4" /> -->
-        <h3 class="text-center fw-semibold mb-3">Presentation Slides</h3>
-        <p class="text-center text-muted">Slides used across project stages, including proposals and progress reviews.</p>
-      </div>
-    
-      <!-- Presentation Slides -->
-      <div class="container" data-aos="fade-up" data-aos-delay="150">
-        <div class="row g-4">
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <a href="slides/proposal-slides.pdf" target="_blank" class="doc-card">
-              <div class="doc-icon"><i class="bi bi-easel-fill"></i></div>
-              <div class="doc-title">Proposal Slides</div>
-            </a>
+      </section>
+      <!-- /Stats Section -->
+
+      <!-- Gallery Section -->
+      <section id="documents" class="Document section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Documents</h2>
+          <div>
+            <span>Check Our</span>
+            <span class="description-title">Submissions</span>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <a href="slides/progress-1.pdf" target="_blank" class="doc-card">
-              <div class="doc-icon"><i class="bi bi-easel2-fill"></i></div>
-              <div class="doc-title">Progress 1 Slides</div>
-            </a>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <a href="slides/progress-2.pdf" target="_blank" class="doc-card">
-              <div class="doc-icon"><i class="bi bi-easel3-fill"></i></div>
-              <div class="doc-title">Progress 2 Slides</div>
-            </a>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <a href="slides/final-presentation.pdf" target="_blank" class="doc-card">
-              <div class="doc-icon"><i class="bi bi-file-slides"></i></div>
-              <div class="doc-title">Final Presentation</div>
-            </a>
+          <p>
+            Browse and access key documents of our research project. Click to
+            view or download.
+          </p>
+        </div>
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row g-4">
+            <!-- Document Cards -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <a
+                href="https://drive.google.com/drive/folders/1ZwTaozs00saoaG0D-sI-OHhv5G1iv96A?usp=sharing"
+                target="_blank"
+                class="doc-card"
+              >
+                <div class="doc-icon">
+                  <i class="bi bi-file-earmark-text"></i>
+                </div>
+                <div class="doc-title">Project Charter</div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <a
+                href="https://drive.google.com/drive/folders/1l61DtofUuXikdTyp8hMYy0zispIdQwtg?usp=sharing"
+                target="_blank"
+                class="doc-card"
+              >
+                <div class="doc-icon">
+                  <i class="bi bi-file-earmark-richtext"></i>
+                </div>
+                <div class="doc-title">Proposal Document</div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <a
+                href="https://drive.google.com/drive/folders/13kMnLPfdDgnGsJoxSbzlMyRv4xsqanS1?usp=sharing"
+                target="_blank"
+                class="doc-card"
+              >
+                <div class="doc-icon"><i class="bi bi-check2-square"></i></div>
+                <div class="doc-title">Checklist</div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <a
+                href="https://drive.google.com/drive/folders/18EwyMrECw1zmY4CGSGdnGtaEYkTM_BMg?usp=sharing"
+                target="_blank"
+                class="doc-card"
+              >
+                <div class="doc-icon"><i class="bi bi-archive-fill"></i></div>
+                <div class="doc-title">Final Pack</div>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
 
-    </section><!-- /Gallery Section -->
+        <!-- Divider for transition -->
+        <div class="container mt-5 mb-4" data-aos="fade-up">
+          <!-- <hr class="mb-4" /> -->
+          <h3 class="text-center fw-semibold mb-3">Presentation Slides</h3>
+          <p class="text-center text-muted">
+            Slides used across project stages, including proposals and progress
+            reviews.
+          </p>
+        </div>
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section dark-background">
+        <!-- Presentation Slides -->
+        <div class="container" data-aos="fade-up" data-aos-delay="150">
+          <div class="row g-4">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <a
+                href="slides/proposal-slides.pdf"
+                target="_blank"
+                class="doc-card"
+              >
+                <div class="doc-icon"><i class="bi bi-easel-fill"></i></div>
+                <div class="doc-title">Proposal Slides</div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <a
+                href="https://drive.google.com/drive/folders/1xuCCWfzFHmYTF-ISSfJ9SeoHV0B5h6fi?usp=sharing"
+                target="_blank"
+                class="doc-card"
+              >
+                <div class="doc-icon"><i class="bi bi-easel2-fill"></i></div>
+                <div class="doc-title">Progress 1 Slides</div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <a
+                href="https://drive.google.com/drive/folders/17F0Q3xA_nCPsJoapiGKHr2H2zhdOU03P?usp=sharing"
+                target="_blank"
+                class="doc-card"
+              >
+                <div class="doc-icon"><i class="bi bi-easel3-fill"></i></div>
+                <div class="doc-title">Progress 2 Slides</div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <a
+                href="https://drive.google.com/drive/folders/1pfi4zLbJi7fXjw_pR99E9nPm3PkJZVt4?usp=sharing"
+                target="_blank"
+                class="doc-card"
+              >
+                <div class="doc-icon"><i class="bi bi-file-slides"></i></div>
+                <div class="doc-title">Final Presentation</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Gallery Section -->
 
-      <img src="assets/img/banner 2.png" class="testimonials-bg" alt="">
+      <!-- Testimonials Section -->
+      <section id="testimonials" class="testimonials section dark-background">
+        <img src="assets/img/banner 2.png" class="testimonials-bg" alt="" />
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                }
               }
-            }
-          </script>
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/team/dilshan.jpg" class="testimonial-img" alt="">
-                <h3>Dilshan De Silva </h3>
-                <h4>Professor</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </script>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/team/dilshan.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Dilshan De Silva</h3>
+                  <h4>Professor</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span
+                      >CodeHarbor is a cutting-edge AI-assisted code review tool
+                      that aligns well with modern software engineering
+                      needs.</span
+                    >
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
                 </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/team/raditha.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Raditha Dissanayake</h3>
+                  <h4>Software Consultant</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span
+                      >As an industry consultant, I see great value in
+                      CodeHarbor’s AI recommendations for real-world
+                      codebases.</span
+                    >
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/team/samadhi.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Samadhi Rathnayake</h3>
+                  <h4>Lecturer</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span
+                      >I was impressed by the compliance-checking capability
+                      integrated with machine learning</span
+                    >
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- /Testimonials Section -->
+
+      <!-- Team Section -->
+      <section id="team" class="team section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Team</h2>
+          <div>
+            <span>Meet Our</span>
+            <span class="description-title">Research Team</span>
+          </div>
+          <p class="text-muted">Department of Software Engineering, SLIIT</p>
+        </div>
+
+        <div class="container">
+          <div class="row gy-5">
+            <!-- Member 1 -->
+            <div
+              class="col-lg-3 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="member">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/yasi.jpeg"
+                    class="img-fluid"
+                    alt="Member 1"
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Yasitha Dewmin</h4>
+                  <span>Undergraduate, Software Engineering</span>
+                  <span>SLIIT</span>
+                  <div class="social">
+                    <a href="ydewmin@gmail.com"
+                      ><i class="bi bi-envelope-fill"></i
+                    ></a>
+                    <a href="https://www.linkedin.com/in/yasitha-dewmin/"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Member 2 -->
+            <div
+              class="col-lg-3 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="member">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/yeran.jpeg"
+                    class="img-fluid"
+                    alt="Member 2"
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Yeran Kodithuwakku</h4>
+                  <span>Undergraduate, Software Engineering</span>
+                  <span>SLIIT</span>
+                  <div class="social">
+                    <a href="kodithuwakkuyeran@gmail.com"
+                      ><i class="bi bi-envelope-fill"></i
+                    ></a>
+                    <a href="https://www.linkedin.com/in/yeran-kods/"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Member 3 -->
+            <div
+              class="col-lg-3 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="member">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/bhanuka.jpeg"
+                    class="img-fluid"
+                    alt="Member 3"
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Bhanuka Dayananda</h4>
+                  <span>Undergraduate, Software Engineering</span>
+                  <span>SLIIT</span>
+                  <div class="social">
+                    <a href="bhanukalakshitha22@gmail.com"
+                      ><i class="bi bi-envelope-fill"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/bhanuka-lakshitha-a31926215/"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Member 4 -->
+            <div
+              class="col-lg-3 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="member">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/wasana.jpeg"
+                    class="img-fluid"
+                    alt="Member 4"
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Wasana Fernando</h4>
+                  <span>Undergraduate, Software Engineering</span>
+                  <span>SLIIT</span>
+                  <div class="social">
+                    <a
+                      href="fruwani5@gmail.com
+                  "
+                      ><i class="bi bi-envelope-fill"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/wasana-fernando-5a201b217/"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="supervisor-heading text-center mt-5 mb-4">
+            <h3 class="section-subtitle">
+              <i class="bi bi-person-badge-fill"></i> Supervisors
+            </h3>
+            <p class="text-muted">
+              Academic supervisors guiding our project journey.
+            </p>
+          </div>
+          <br /><br />
+          <div class="row gy-5">
+            <!-- Supervisor 1 -->
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="member">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/samadhi.jpg"
+                    class="img-fluid"
+                    alt="Supervisor 2"
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Mr. Samadhi Rathnayake</h4>
+                  <span>Lecturer, Faculty of Computing</span>
+                  <span>SLIIT</span>
+                  <div class="social">
+                    <a href="mailto:jane.smith@sliit.lk"
+                      ><i class="bi bi-envelope-fill"></i
+                    ></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Supervisor 2 -->
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="member">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/dilshan.jpg"
+                    class="img-fluid"
+                    alt="Supervisor 1"
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Prof. Dilshan De Silva</h4>
+                  <span>Associate Professor, Faculty of Computing</span>
+                  <span>SLIIT</span>
+                  <div class="social">
+                    <a href="mailto:john.doe@sliit.lk"
+                      ><i class="bi bi-envelope-fill"></i
+                    ></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Supervisor 3 -->
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="member">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/raditha.jpg"
+                    class="img-fluid"
+                    alt="Supervisor 3"
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Mr. Raditha Dissanayake</h4>
+                  <span>Software Consultant </span>
+                  <span>Cloud Solutions International</span>
+                  <div class="social">
+                    <a href="mailto:michael.lee@sliit.lk"
+                      ><i class="bi bi-envelope-fill"></i
+                    ></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Team Section -->
+
+      <!-- Pricing Section -->
+      <!-- /Pricing Section -->
+
+      <!-- Faq Section -->
+      <section id="faq" class="faq section light-background">
+        <div class="container-fluid">
+          <div class="row gy-4">
+            <div
+              class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1"
+            >
+              <div
+                class="content px-xl-5"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <h3>
+                  <span>Frequently Asked </span><strong>Questions</strong>
+                </h3>
                 <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>CodeHarbor is a cutting-edge AI-assisted code review tool that aligns well with modern software engineering needs.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
+                  Have questions about how our AI-powered code analysis tool
+                  works? Check below for answers to the most common queries from
+                  developers and teams.
                 </p>
               </div>
-            </div><!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/team/raditha.jpg" class="testimonial-img" alt="">
-                <h3>Raditha Dissanayake</h3>
-                <h4>Software Consultant</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              <div
+                class="faq-container px-xl-5"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="faq-item faq-active">
+                  <i class="faq-icon bi bi-question-circle"></i>
+                  <h3>What types of code does the tool support?</h3>
+                  <div class="faq-content">
+                    <p>
+                      Our tool currently supports Python, Java, and JavaScript
+                      codebases. We are actively working on expanding support
+                      for additional languages such as C#, PHP, and TypeScript.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
                 </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>As an industry consultant, I see great value in CodeHarbor’s AI recommendations for real-world codebases.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
+                <!-- End Faq item-->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/team/samadhi.jpg" class="testimonial-img" alt="">
-                <h3>Samadhi Rathnayake</h3>
-                <h4>Lecturer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <div class="faq-item">
+                  <i class="faq-icon bi bi-question-circle"></i>
+                  <h3>How does the AI generate recommendations?</h3>
+                  <div class="faq-content">
+                    <p>
+                      The AI engine analyzes your codebase using trained machine
+                      learning models and static analysis techniques. It detects
+                      complexity issues, coding standard violations, and
+                      potential optimizations, then provides context-aware
+                      recommendations tailored to your project.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
                 </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>I was impressed by the compliance-checking capability integrated with machine learning</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
+                <!-- End Faq item-->
 
-            
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section><!-- /Testimonials Section -->
-
-    <!-- Team Section -->
-    <section id="team" class="team section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Team</h2>
-        <div><span>Meet Our</span> <span class="description-title">Research Team</span></div>
-        <p class="text-muted">Department of Software Engineering, SLIIT</p>
-      </div>
-    
-      <div class="container">
-        <div class="row gy-5">
-    
-          <!-- Member 1 -->
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-              <div class="pic">
-                <img src="assets/img/team/yasi.jpeg" class="img-fluid" alt="Member 1">
-              </div>
-              <div class="member-info">
-                <h4>Yasitha Dewmin</h4>
-                <span>Undergraduate, Software Engineering</span>
-                <span>SLIIT</span>
-                <div class="social">
-                  <a href="ydewmin@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/yasitha-dewmin/"><i class="bi bi-linkedin"></i></a>
+                <div class="faq-item">
+                  <i class="faq-icon bi bi-question-circle"></i>
+                  <h3>Is my code data stored or shared externally?</h3>
+                  <div class="faq-content">
+                    <p>
+                      No, your code stays secure. All analysis happens locally
+                      or within your private project environment. We do not
+                      store, share, or use your code outside of the analysis you
+                      initiate.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
                 </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <i class="faq-icon bi bi-question-circle"></i>
+                  <h3>Does the system integrate uploaded coding guidelines?</h3>
+                  <div class="faq-content">
+                    <p>
+                      Yes! The system allows companies to upload their own
+                      coding guidelines, which are then incorporated into the
+                      analysis pipeline, making recommendations aligned with
+                      organization-specific standards.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <i class="faq-icon bi bi-question-circle"></i>
+                  <h3>Can developers track improvement over time?</h3>
+                  <div class="faq-content">
+                    <p>
+                      Yes, the system provides interactive dashboards showing
+                      metrics like code quality score improvements and AI
+                      suggestion history, helping developers monitor progress
+                      across iterations.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
               </div>
             </div>
-          </div>
-    
-          <!-- Member 2 -->
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <div class="pic">
-                <img src="assets/img/team/yeran.jpeg" class="img-fluid" alt="Member 2">
-              </div>
-              <div class="member-info">
-                <h4>Yeran Kodithuwakku</h4>
-                <span>Undergraduate, Software Engineering</span>
-                <span>SLIIT</span>
-                <div class="social">
-                  <a href="kodithuwakkuyeran@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/yeran-kods/"><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-    
-          <!-- Member 3 -->
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <div class="pic">
-                <img src="assets/img/team/bhanuka.jpeg" class="img-fluid" alt="Member 3">
-              </div>
-              <div class="member-info">
-                <h4>Bhanuka Dayananda</h4>
-                <span>Undergraduate, Software Engineering</span>
-                <span>SLIIT</span>
-                <div class="social">
-                  <a href="bhanukalakshitha22@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/bhanuka-lakshitha-a31926215/"><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-    
-          <!-- Member 4 -->
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="member">
-              <div class="pic">
-                <img src="assets/img/team/wasana.jpeg" class="img-fluid" alt="Member 4">
-              </div>
-              <div class="member-info">
-                <h4>Wasana Fernando</h4>
-                <span>Undergraduate, Software Engineering</span>
-                <span>SLIIT</span>
-                <div class="social">
-                  <a href="fruwani5@gmail.com
-                  "><i class="bi bi-envelope-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/wasana-fernando-5a201b217/"><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-    
-        </div>
 
-        <div class="supervisor-heading text-center mt-5 mb-4">
-          <h3 class="section-subtitle">
-            <i class="bi bi-person-badge-fill"></i> Supervisors
-          </h3>
-          <p class="text-muted">Academic supervisors guiding our project journey.</p>
-        </div>
-        <br><br>
-        <div class="row gy-5">
-          <!-- Supervisor 1 -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-              <div class="pic">
-                <img src="assets/img/team/samadhi.jpg" class="img-fluid" alt="Supervisor 2">
-              </div>
-              <div class="member-info">
-                <h4>Mr. Samadhi Rathnayake</h4>
-                <span>Lecturer, Faculty of Computing</span>
-                <span>SLIIT</span>
-                <div class="social">
-                  <a href="mailto:jane.smith@sliit.lk"><i class="bi bi-envelope-fill"></i></a>
-                  <a href="#"><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-    
-          <!-- Supervisor 2 -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <div class="pic">
-                <img src="assets/img/team/dilshan.jpg" class="img-fluid" alt="Supervisor 1">
-              </div>
-              <div class="member-info">
-                <h4>Prof. Dilshan De Silva</h4>
-                <span>Associate Professor, Faculty of Computing</span>
-                <span>SLIIT</span>
-                <div class="social">
-                  <a href="mailto:john.doe@sliit.lk"><i class="bi bi-envelope-fill"></i></a>
-                  <a href="#"><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-    
-          <!-- Supervisor 3 -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <div class="pic">
-                <img src="assets/img/team/raditha.jpg" class="img-fluid" alt="Supervisor 3">
-              </div>
-              <div class="member-info">
-                <h4>Mr. Raditha Dissanayake</h4>
-                <span>Software Consultant </span>
-                <span>Cloud Solutions International</span>
-                <div class="social">
-                  <a href="mailto:michael.lee@sliit.lk"><i class="bi bi-envelope-fill"></i></a>
-                  <a href="#"><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
+            <div class="col-lg-5 order-1 order-lg-2">
+              <img
+                src="assets/img/faq.jpg"
+                class="img-fluid"
+                alt="FAQ Image"
+                data-aos="zoom-in"
+                data-aos-delay="100"
+              />
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <!-- /Faq Section -->
 
-    </section><!-- /Team Section -->
-
-    <!-- Pricing Section -->
-    <!-- /Pricing Section -->
-
-    <!-- Faq Section -->
-    <section id="faq" class="faq section light-background">
-
-      <div class="container-fluid">
-
-        <div class="row gy-4">
-    
-          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
-    
-            <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
-              <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
-              <p>
-                Have questions about how our AI-powered code analysis tool works? Check below for answers to the most common queries from developers and teams.
-              </p>
-            </div>
-    
-            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
-    
-              <div class="faq-item faq-active">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>What types of code does the tool support?</h3>
-                <div class="faq-content">
-                  <p>
-                    Our tool currently supports Python, Java, and JavaScript codebases. We are actively working on expanding support for additional languages such as C#, PHP, and TypeScript.
-                  </p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-    
-              <div class="faq-item">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>How does the AI generate recommendations?</h3>
-                <div class="faq-content">
-                  <p>
-                    The AI engine analyzes your codebase using trained machine learning models and static analysis techniques. It detects complexity issues, coding standard violations, and potential optimizations, then provides context-aware recommendations tailored to your project.
-                  </p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-    
-              <div class="faq-item">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>Is my code data stored or shared externally?</h3>
-                <div class="faq-content">
-                  <p>
-                    No, your code stays secure. All analysis happens locally or within your private project environment. We do not store, share, or use your code outside of the analysis you initiate.
-                  </p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-    
-              <div class="faq-item">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3> Does the system integrate uploaded coding guidelines?</h3>
-                <div class="faq-content">
-                  <p>
-                    Yes! The system allows companies to upload their own coding guidelines, which are then incorporated into the analysis pipeline, making recommendations aligned with organization-specific standards.
-                  </p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-    
-              <div class="faq-item">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3> Can developers track improvement over time?</h3>
-                <div class="faq-content">
-                  <p>
-                    Yes, the system provides interactive dashboards showing metrics like code quality score improvements and AI suggestion history, helping developers monitor progress across iterations.
-                  </p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-    
-            </div>
-    
-          </div>
-    
-          <div class="col-lg-5 order-1 order-lg-2">
-            <img src="assets/img/faq.jpg" class="img-fluid" alt="FAQ Image" data-aos="zoom-in" data-aos-delay="100">
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Contact</h2>
+          <div>
+            <span>Get In Touch</span>
+            <span class="description-title">With Us</span>
           </div>
         </div>
-    
-      </div>
+        <!-- End Section Title -->
 
-    </section><!-- /Faq Section -->
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <div><span>Get In Touch</span> <span class="description-title">With Us</span></div>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4">
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h3>Address</h3>
-                <p>New Kandy Road, Malabe</p>
+        <div class="container" data-aos="fade" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-4">
+              <div
+                class="info-item d-flex"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>New Kandy Road, Malabe</p>
+                </div>
               </div>
-            </div><!-- End Info Item -->
+              <!-- End Info Item -->
 
-            <!-- <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <!-- <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
               <i class="bi bi-telephone flex-shrink-0"></i>
               <div>
                 <h3>Call Us</h3>
@@ -827,144 +1244,203 @@
               </div>
             </div>End Info Item -->
 
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3>Email Us</h3>
-                <p>info@codeharbor.com</p>
+              <div
+                class="info-item d-flex"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>info@codeharbor.com</p>
+                </div>
               </div>
-            </div><!-- End Info Item -->
+              <!-- End Info Item -->
+            </div>
 
+            <div class="col-lg-8">
+              <form
+                action="forms/contact.php"
+                method="post"
+                class="php-email-form"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      placeholder="Your Name"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-6">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      placeholder="Your Email"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="subject"
+                      placeholder="Subject"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      rows="6"
+                      placeholder="Message"
+                      required=""
+                    ></textarea>
+                  </div>
+
+                  <div class="col-md-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">
+                      Your message has been sent. Thank you!
+                    </div>
+
+                    <button type="submit">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- End Contact Form -->
+          </div>
+        </div>
+      </section>
+      <!-- /Contact Section -->
+    </main>
+
+    <footer id="footer" class="footer dark-background">
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">CodeHarbor</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>New Kandy Road, Malabe</p>
+              <p>Western, Sri Lanka</p>
+              <p class="mt-3">
+                <strong>Phone:</strong> <span>+94 77 123 4567</span>
+              </p>
+              <p><strong>Email:</strong> <span>info@codeharbor.com</span></p>
+            </div>
+            <div class="social-links d-flex mt-4">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
           </div>
 
-          <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#about">About us</a></li>
+              <li><a href="#domain">Domain</a></li>
+              <li><a href="#features">Milestones</a></li>
+              <li><a href="#documents">Documents</a></li>
+            </ul>
+          </div>
 
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="#">Automated Code Review</a></li>
+              <li><a href="#">AI-Driven Refactoring</a></li>
+              <li><a href="#">Code Complexity Analysis</a></li>
+              <!-- <li><a href="#">Compliance Checking</a></li> -->
+              <li><a href="#">Accessibility & Gamification</a></li>
+            </ul>
+          </div>
 
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
+          <div class="col-lg-4 col-md-12 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>
+              Subscribe to our newsletter and receive the latest news about our
+              products and services!
+            </p>
+            <form
+              action="forms/newsletter.php"
+              method="post"
+              class="php-email-form"
+            >
+              <div class="newsletter-form">
+                <input type="email" name="email" /><input
+                  type="submit"
+                  value="Subscribe"
+                />
+              </div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">
+                Your subscription request has been sent. Thank you!
               </div>
             </form>
-          </div><!-- End Contact Form -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Contact Section -->
-
-  </main>
-
-  <footer id="footer" class="footer dark-background">
-
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">CodeHarbor</span>
-          </a>
-          <div class="footer-contact pt-3">
-            <p>A New Kandy Road, Malabe</p>
-            <p>Western, Sri Lanka</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@codeharbor.com</span></p>
-          </div>
-          <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about">About us</a></li>
-            <li><a href="#domain">Domain</a></li>
-            <li><a href="#features">Milestones</a></li>
-            <li><a href="#documents">Documents</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Automated Code Review</a></li>
-            <li><a href="#">AI-Driven Refactoring</a></li>
-            <li><a href="#">Code Complexity Analysis</a></li>
-            <!-- <li><a href="#">Compliance Checking</a></li> -->
-            <li><a href="#">Accessibility & Gamification</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-4 col-md-12 footer-newsletter">
-          <h4>Our Newsletter</h4>
-          <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-          <form action="forms/newsletter.php" method="post" class="php-email-form">
-            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
-          </form>
-        </div>
-
       </div>
-    </div>
 
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">CodeHarbor</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a> -->
+      <div class="container copyright text-center mt-4">
+        <p>
+          © <span>Copyright</span>
+          <strong class="px-1 sitename">CodeHarbor</strong>
+          <span>All Rights Reserved</span>
+        </p>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a> -->
+        </div>
       </div>
-    </div>
+    </footer>
 
-  </footer>
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- Preloader -->
+    <div id="preloader"></div>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script>
+      const lightbox = GLightbox({
+        selector: ".glightbox",
+      });
+    </script>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
