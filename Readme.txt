@@ -1,9 +1,7 @@
-<h1 align="center">🌊 CodeHarbor Web</h1>
+# 🌊 CodeHarbor Web
 
-<p align="center">
-  <strong>Analyze and Improve Code with CodeHarbor</strong><br>
-  An AI-powered code analysis platform for smarter reviews, refactoring, and accessibility enhancements.
-</p>
+**Analyze and Improve Code with CodeHarbor**  
+An AI-powered code analysis platform for smarter reviews, refactoring, and accessibility enhancements.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/your-image-preview" alt="CodeHarbor Preview" width="700">
@@ -19,13 +17,14 @@
 
 ## 🚀 Live Site
 
-🔗 **[CodeHarbor Web](https://yasidew.github.io/CodeHarbor-web/)** – Explore the platform in action!
+🔗 [**CodeHarbor Web**](https://yasidew.github.io/CodeHarbor-web/) – Explore the platform in action!
 
 ---
 
 ## 📌 Project Overview
 
-CodeHarbor is an interactive, AI-powered code analysis portal designed to help developers write better, more accessible code. The platform integrates intelligent suggestions for refactoring and complexity reduction, while also ensuring adherence to accessibility guidelines.
+CodeHarbor is an interactive, AI-powered code analysis portal designed to help developers write better, more accessible code.  
+The platform integrates intelligent suggestions for refactoring and complexity reduction, while also ensuring adherence to accessibility guidelines.
 
 This web interface is the landing page for the CodeHarbor project, introducing its features and providing quick access to core modules and documentation.
 
@@ -33,14 +32,14 @@ This web interface is the landing page for the CodeHarbor project, introducing i
 
 ## ✨ Features
 
-- 🎯 **Modern UI/UX** with responsive design
-- 🧠 **AI-based Code Refactoring**
-- ♿ **Accessibility Analysis**
-- 🧮 **Code Complexity Insights**
-- 📊 **Metrics-driven Feedback**
-- 📁 Drag-and-drop file upload
-- 📽️ Integrated Demo Preview
-- 🌙 Dark theme support
+- 🎨 **Modern UI/UX** with responsive design  
+- 🤖 **AI-based Code Refactoring**  
+- ♿ **Accessibility Analysis**  
+- 📊 **Code Complexity Insights**  
+- 📈 **Metrics-driven Feedback**  
+- 📁 Drag-and-drop file upload  
+- 🎬 Integrated demo preview  
+- 🌙 Dark theme support  
 
 ---
 
