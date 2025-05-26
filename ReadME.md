@@ -54,3 +54,28 @@ CodeHarbor-web/
 ├── Readme.txt               # BootstrapMade license and credit
 ├── package-lock.json        # Lock file (for future NPM integrations)
 └── .DS_Store                # MacOS system file (can be ignored)
+```
+
+## 💻 Tech Stack
+
+Technology	        Purpose
+HTML5 / CSS3	      Markup and styling
+Bootstrap	          Responsive layout and design
+JavaScript	        Frontend interactivity
+GitHub Pages
+Hosting the live site
+
+##  🛠️ Getting Started
+
+git clone https://github.com/yasidew/CodeHarbor-web.git
+cd CodeHarbor-web
+# Then open index.html in your preferred browser
+
+
+## 📝 Acknowledgements
+🎨 UI Template by BootstrapMade – Bootslander
+
+📦 Icons from Bootstrap Icons
+
+🚀 Deployment via GitHub Pages
+
